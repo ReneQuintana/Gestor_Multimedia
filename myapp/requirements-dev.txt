@@ -1,0 +1,15 @@
+ # requirements-dev.txt
+# Dependencias para desarrollo y testing.
+# Instalar con: pip install -r requirements-dev.txt
+
+-r requirements.txt
+
+# Testing
+pytest>=7.0
+pytest-cov>=4.0
+
+# Generar ejecutable .exe
+pyinstaller>=6.0
+
+# Fase 2 (descomentar cuando corresponda):
+# flet>=0.21

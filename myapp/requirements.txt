@@ -1,0 +1,8 @@
+ # requirements.txt
+# Dependencias para el usuario final.
+# La mayoria de modulos (hashlib, threading, shutil, logging, sqlite3, pathlib)
+# vienen incluidos en Python.
+
+# Hash perceptual de imagenes y deteccion de resolucion HD.
+# No disponible en Python 3.14+ en Windows sin compilador C.
+pillow>=10.0.0,<12; python_version < "3.14"
